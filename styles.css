@@ -1,0 +1,107 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+.container {
+margin-top: 10%;
+}
+section {
+    height: 50vh;
+    border: 1px solid rgb(249, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  .danfo{
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "ELSH" 0;
+  }
+  
+/* The hero image */
+.hero-image {
+    height: 60%;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 11px 8px rgba(0, 0, 0, 0.3), 0 -2px 4px rgba(0, 0, 0, 0.2);
+
+}
+.image-on-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto; 
+    height: 100%;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    font-family: 'Danfo';
+    text-align: left;
+    position: relative;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    font-size: 150%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 253, 253);
+}
+
+.last-name {
+    color: rgb(252, 38, 38);
+}
+
+.hero-paragraph {
+    font-family: 'Anton';
+    color: white;
+    text-align: left;
+    position: relative;
+    font-size: 50%;
+}
+.mainparagraph {
+    font-size: 70%;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    justify-content: right;
+
+}
+
+body {
+    font-family:'Anton';
+    background-color: white;
+}
+
+p {
+    Color: black;
+}
+.logo-picture {
+    display: flex;
+    justify-content: left;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+
