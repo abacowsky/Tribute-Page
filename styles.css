@@ -4,14 +4,21 @@ html {
     margin: 0;
 }
 .container {
-margin-top: 10%;
+display: block;
+padding: 20px;
+overflow:hidden
 }
+.container-front {
+    display: grid;
+    place-items: center;
+    margin-top: 25px;
+    height: 60vh;
+}
+
 section {
     height: 50vh;
-    border: 1px solid rgb(249, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    padding: 20px;
 }
 
 .anton-regular {
@@ -49,7 +56,7 @@ section {
 
 /* Place text in the middle of the image */
 .hero-text {
-    font-family: 'Danfo';
+    font-family: 'Danfo', serif;
     text-align: left;
     position: relative;
     padding: 40px;
@@ -73,12 +80,20 @@ section {
 }
 .mainparagraph {
     font-size: 70%;
-    margin: 10px;
     padding: 10px;
     color: white;
     text-align: center;
-    justify-content: right;
-
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 70%;
+    text-align: center;
+}
+ul li {
+    margin-bottom: 10px;
 }
 
 body {
@@ -89,19 +104,25 @@ body {
 p {
     Color: black;
 }
-.logo-picture {
-    display: flex;
-    justify-content: left;
-    height: 150px;
-    margin: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
 
 footer {
     display: flex;
     justify-content: center;
     font-size: small;
 }
-
-
+.rounded-square {
+    width: 250px; /* Width of the square */
+    height: 100px; /* Height of the square */
+    background-color: #070707; /* Background color */
+    border-radius: 20px; /* Rounds the corners */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+    text-align: center; /* Center text alignment */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+.text {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
